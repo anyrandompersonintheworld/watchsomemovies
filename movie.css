@@ -1,0 +1,51 @@
+.moviebanner img{
+    width: 100%;
+    height: 60vh;
+}
+.movietext{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 80px;
+} 
+.offers{
+    width: 446px;
+    height: 66px;
+    border: 2px dotted black;
+    background-color: #FFF1CC;
+}
+.justoffers{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.offersblock{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 80px;
+}
+.youmayalsolike{
+    padding: 50px;
+    margin-top: 80px;
+}
+.movieheading{
+    font-size: 50px;
+}
+@media screen and (max-width: 500px){
+    .justoffers{
+        flex-direction: column;
+        /* margin-left: 20px;
+        margin-right: 20px; */
+    }
+    .movietext{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .youmayalsolike{
+        padding-left: 0px;
+    }
+    .offersblock{
+        margin-left: 0px;
+        margin-right: 0px;
+        display: none;
+    }
+}
